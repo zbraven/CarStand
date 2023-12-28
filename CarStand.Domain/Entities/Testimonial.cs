@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
-    public class Location
+    public class Testimonial
     {
-        public int LocationID { get; set; }
+        public int TestimonialID { get; set; }
         public string Name { get; set; }
+        public string Title { get; set; }
+        public string Comment { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

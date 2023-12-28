@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
-    //Markalar
     public class Brand
     {
-        public int BrandId { get; set; }
+        public int BrandID { get; set; }
         public string Name { get; set; }
-        public List<Cars> Cars { get; set; }
+        public List<Car> Cars { get; set; }
     }
 }

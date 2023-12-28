@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
-    public class Location
+    public class Category
     {
-        public int LocationID { get; set; }
+        public int CategoryID { get; set; }
         public string Name { get; set; }
+        public List<Blog> Blogs { get; set; }
     }
 }

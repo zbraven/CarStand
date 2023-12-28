@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
-    public class Banner
+    public class TagCloud
     {
-        public int BannerID { get; set; }
+        public int TagCloudID { get; set; }
         public string Title { get; set; }
-        public string Description { get; set; }
-        public string VideoDescription { get; set; }
-        public string VideoUrl { get; set; }
+        public int BlogID { get; set; }
+        public Blog Blog { get; set; }
     }
 }

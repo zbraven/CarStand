@@ -8,7 +8,8 @@ namespace CarStand.Domain.Entities
 {
     public class Feature
     {
-        public int FeatureId { get; set; }      
+        public int FeatureID { get; set; }
         public string Name { get; set; }
+        public List<CarFeature> CarFeatures { get; set; }
     }
 }
