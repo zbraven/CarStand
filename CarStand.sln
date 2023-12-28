@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{22D3736F-4699-4370-B0DD-AADF6AC94A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStand.Domain", "CarStand.Domain\CarStand.Domain.csproj", "{F60E9424-EE98-4B50-9664-30ED73663651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStand.Domain", "CarStand.Domain\CarStand.Domain.csproj", "{F60E9424-EE98-4B50-9664-30ED73663651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A68446CC-AF16-4FB4-BAD1-35079A857BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStand.Persistence", "CarStand.Persistence\CarStand.Persistence.csproj", "{A2C119B2-8784-4505-8BB3-830DD48440B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{F60E9424-EE98-4B50-9664-30ED73663651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60E9424-EE98-4B50-9664-30ED73663651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60E9424-EE98-4B50-9664-30ED73663651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C119B2-8784-4505-8BB3-830DD48440B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C119B2-8784-4505-8BB3-830DD48440B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C119B2-8784-4505-8BB3-830DD48440B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C119B2-8784-4505-8BB3-830DD48440B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F60E9424-EE98-4B50-9664-30ED73663651} = {22D3736F-4699-4370-B0DD-AADF6AC94A1D}
+		{A2C119B2-8784-4505-8BB3-830DD48440B8} = {A68446CC-AF16-4FB4-BAD1-35079A857BF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5FAF96A-5E7E-42A1-8DE7-5C801F120A1F}

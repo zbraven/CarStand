@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
+    //Referans
     public class Testimonial
     {
         public int TestimonialID { get; set; }

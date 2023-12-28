@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
+
     public class Banner
     {
         public int BannerID { get; set; }

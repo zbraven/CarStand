@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarStand.Domain.Entities
 {
+    //Hakkında
     public class About
     {
         public int AboutID { get; set; }
