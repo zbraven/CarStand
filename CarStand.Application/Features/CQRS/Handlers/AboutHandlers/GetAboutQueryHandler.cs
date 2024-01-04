@@ -17,9 +17,10 @@ namespace CarStand.Application.Features.CQRS.Handlers.AboutHandlers
         {
             _repository = repository;
         }
-        public List<GetAboutQueryResult> Handle()
+        public async Task<List<GetAboutQueryResult>> Handle()
         {
-            var values = _repository.GetAllAsync().Result;
+            var values = await _repository.GetAllAsync();
+
             return values.Select(x => new GetAboutQueryResult
             {          
                AboutID = x.AboutID, 
